@@ -11,6 +11,7 @@ import 'package:curso_dart/cotacao_financeira.dart' as cotacao_financeira;
 import 'package:curso_dart/rodando_processos.dart' as rodando_processos;
 import 'package:curso_dart/comunicacao_entre_processos.dart' as comunicacao_entre_processos;
 import 'package:curso_dart/timers_e_callbacks.dart' as timers_e_callbacks;
+import 'package:curso_dart/stream.dart' as stream;
 
 void main(List<String> arguments) {
 
@@ -18,7 +19,9 @@ void main(List<String> arguments) {
 
   //comunicacao_entre_processos.main();
 
-  timers_e_callbacks.main();
+  //timers_e_callbacks.main();
+
+  stream.main();
 
   //teste_lista(arguments);
 
