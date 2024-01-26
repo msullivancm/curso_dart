@@ -89,6 +89,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.0"
+  galileo_sqljocky5:
+    dependency: "direct main"
+    description:
+      name: galileo_sqljocky5
+      sha256: bd97cffc303d13b3c30bb96a1bc01c6ff534f0e3d0b64e6b686cb618f4ce7041
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
+  galileo_typed_buffer:
+    dependency: transitive
+    description:
+      name: galileo_typed_buffer
+      sha256: "0d69a4738d3c8c619b3f5c76a738870f4a6f45c1ae392e74f66e1248f7ef6937"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   glob:
     dependency: transitive
     description:
@@ -173,10 +189,10 @@ packages:
     dependency: transitive
     description:
       name: mime
-      sha256: e4ff8e8564c03f255408decd16e7899da1733852a9110a58fe6d1b817684a63e
+      sha256: "2e123074287cc9fd6c09de8336dae606d1ddb88d9ac47358826db698c176a1f2"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.4"
+    version: "1.0.5"
   node_preamble:
     dependency: transitive
     description:
@@ -297,6 +313,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  synchronized:
+    dependency: transitive
+    description:
+      name: synchronized
+      sha256: "539ef412b170d65ecdafd780f924e5be3f60032a1128df156adad6c5b373d558"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0+1"
   term_glyph:
     dependency: transitive
     description:
@@ -309,10 +333,10 @@ packages:
     dependency: "direct dev"
     description:
       name: test
-      sha256: "694c108e13c6b35b15fcb0f8f03eddf8373f93b044c9497b5e81ce09f7381bda"
+      sha256: "7ee446762c2c50b3bd4ea96fe13ffac69919352bd3b4b17bac3f3465edc58073"
       url: "https://pub.dev"
     source: hosted
-    version: "1.25.1"
+    version: "1.25.2"
   test_api:
     dependency: transitive
     description:

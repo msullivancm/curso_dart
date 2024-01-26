@@ -13,10 +13,26 @@ import 'package:curso_dart/comunicacao_entre_processos.dart' as comunicacao_entr
 import 'package:curso_dart/timers_e_callbacks.dart' as timers_e_callbacks;
 import 'package:curso_dart/stream.dart' as stream;
 import 'package:curso_dart/compressao_gzip.dart' as compressao_gzip;
+import 'package:curso_dart/compressao_gzip_zlib.dart' as compressao_gzip_zip;
+import 'package:curso_dart/servidor_socket_tcp.dart' as servidor_socket_tcp;
+import 'package:curso_dart/client_socket_tcp.dart' as client_socket_tcp;
+import 'package:curso_dart/client_server_socket_udp.dart' as client_server_socket_udp;
+import 'package:curso_dart/http_post.dart' as http_post;
+import 'package:curso_dart/manipula_bd.dart' as manipula_bd;
+import 'package:curso_dart/lista_processos.dart' as lista_processos;
 
-void main(List<String> arguments) {
+void main(List<String> arguments) async {
 
-  compressao_gzip.main();
+  lista_processos.main();
+
+  //manipula_bd.main();
+
+  //http_post.main();
+
+  //await servidor_socket_tcp.main();
+  //await client_socket_tcp.main();
+
+  //client_server_socket_udp.main();
 
    //rodando_processos.main();
 
