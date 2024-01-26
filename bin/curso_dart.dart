@@ -12,8 +12,11 @@ import 'package:curso_dart/rodando_processos.dart' as rodando_processos;
 import 'package:curso_dart/comunicacao_entre_processos.dart' as comunicacao_entre_processos;
 import 'package:curso_dart/timers_e_callbacks.dart' as timers_e_callbacks;
 import 'package:curso_dart/stream.dart' as stream;
+import 'package:curso_dart/compressao_gzip.dart' as compressao_gzip;
 
 void main(List<String> arguments) {
+
+  compressao_gzip.main();
 
    //rodando_processos.main();
 
@@ -21,7 +24,7 @@ void main(List<String> arguments) {
 
   //timers_e_callbacks.main();
 
-  stream.main();
+  //stream.main();
 
   //teste_lista(arguments);
 
